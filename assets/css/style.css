@@ -443,6 +443,7 @@ section.Quality {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;
+        background-position-x: center;
 }
 .customer-say-des {
     width: 100%;
