@@ -1,0 +1,521 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1439px) { 
+   body{
+      background-color: #fff;
+   } 
+   .header-bg {
+     box-shadow:none; 
+
+}
+header {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .11);
+    position: relative;
+    z-index: 999;
+}
+footer {
+    background: #2a292a;
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   a.custom-btn.button-a {
+    font-size: 20px;
+}
+.bottom-banner {
+    background-position-x: center;
+}
+.footer-text {
+    padding: 0px 25px;
+}
+.right-side-product-des p {
+    line-height: 22px;
+}
+.right-side-product-des {
+    /* padding: 30px 17px; */
+    max-width: 100%;
+}
+.container {
+    padding: 0 !important;
+}
+.col-sm-12,.col-md-6,.col-12{
+	padding: 0 !important;
+}
+.level-img.text-center img {
+    width: 100%;
+    max-width: 200px;
+}
+.row.pt-4 {
+    width: 100%;
+}
+.bottom-banner-text {
+    padding-left: 45%;
+}
+.bottom-banner-text h2 {
+    font-size: 31px;
+}
+.banner-section .header-title {
+    padding-left: 20px;
+}
+.banner-section .list-item {
+    padding-left: 20px;
+}
+
+.banner-section {
+    background-size: 100% 100%;
+}
+
+.rating-section{
+	padding: 30px 0px;
+}
+.useful_desc_wraper {
+    padding: 25px;
+}
+.useful_desc_wraper h2 {
+    padding-top: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.bottom-banner .list-item {
+    max-width: 500px;
+}
+}
+
+
+@media (max-width: 1000px){
+	.container {
+    padding: 0 !important;
+}
+.col-sm-12,.col-md-6,.col-12{
+	padding: 0 !important;
+}
+.row.pt-4 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rating-section{
+	padding: 30px 0px;
+}
+.container, .container-md, .container-sm {
+    max-width: 100%;
+}
+header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a.custom-btn.button-a {
+    font-size: 18px;
+    width: 244px;
+}
+.banner-section .header-title {
+    padding-left: 25px;
+}
+
+.header-title h2 {
+    font-size: 26px;
+}
+.header-title p {
+    font-size: 16px;
+}
+
+.main-quality {
+    display: block;
+    text-align: center;
+}
+.quality-description {
+    margin-left: 0;
+    max-width: 100%;
+
+}
+.custom-container {
+    padding: 0px 25px;
+}
+.imgandheading {
+    height: 62px;
+}
+.right-side-product-des {
+    padding: 12px 15px;
+    max-width: 100%;
+}
+.right-side-product-des p {
+    line-height: 22px;
+    font-size: 15px;
+}
+.right-side-product-des .sky {
+    color: rgb(0, 174, 239);
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    padding-top: 14px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.leve-des.mt-3 h4 {
+    font-size: 20px;
+}
+
+}
+
+@media (min-width: 992px){
+    .footer-button{
+        display: none;
+    }
+}
+@media (max-width: 992px){
+    a.custom-btn.button-a.d-none{
+        display: none !important;
+    }
+    .stickys {
+    position: static;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .about-a{
+   	display: none !important
+   }
+.customer-say {
+    background-position-x: 35%;
+}
+.banner-section {
+    background-position-x: 55%;
+}
+.bottom-banner-text {
+    padding-left: 43%;
+}
+.banner-section .list-item {
+    padding-left: 25px;
+    max-width: 430px;
+}
+.banner-section .header-title {
+    max-width: 430px;
+}
+.banner-section .header-title h1 br {
+    display: none;
+}
+
+.banner-section .header-title p br {
+    display: none;
+}
+.custom-btn {
+    font-size: 20px;
+    }
+.footer-text p {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+.footer-text ul li a {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.quality-description h3 {
+    font-size: 20px;
+}
+.useful_desc {
+    padding: 0px 25px;
+}
+.useful_desc_wraper h2 {
+    padding: 25px 25px;
+}
+section.offer-now {
+    background-position-x: 35%;
+}
+.bottom-banner {
+    background-position-x: 54%;
+}
+.header-title h2 br {
+    display: none;
+}
+
+.bottom-banner .header-title {
+    max-width: 430px;
+}
+.header-title h2 {
+    font-size: 30px;
+}
+.bottom-banner .list-item {
+    max-width: 430px;
+}
+.perfect_desc {
+    padding: 0px 25px;
+}
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    br{
+        display: none !important;
+    }
+    h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 30px;
+    }
+ .row.pt-4 {
+    width: 100%;
+}  
+ .about-a{
+   	display: none !important
+   }
+   .customer-say {
+    background: url(../img/club-crush-blender-step-8md.jpg) right center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto;
+        margin-bottom: 30px;
+}
+.bottom-banner {
+    background-position-x: 50%;
+}
+.bottom-banner-text {
+    padding-left: 43%;
+}
+.footer-text p {
+    margin: 0;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+.footer-text ul li a {
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-section {
+   background: url(../img/club-crush-blender-md.jpg) center bottom/cover no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 2px 0 125vw;
+}
+.right-side-product-des {
+    padding: 32px 30px;
+    max-width: 100%;
+}
+.total-rating {
+    display: block;
+}
+.right-rating {
+    padding-left: 0px;
+}
+.header-bottom p {
+    font-size: 15px;
+    line-height: 21px;
+}
+.bottom-banner-text {
+    padding-left: 35px;
+}
+.bottom-banner {
+    background: url(../img/club-crush-blender-step-10md.jpg) center bottom/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0 138vw;
+}
+.footer-text {
+    display: block;
+    text-align: center;
+}
+.level-img.text-center {
+    padding-top: 20px;
+}
+a.custom-btn.button-a.d-none {
+    display: none !important;
+}
+.modal_section {
+    width: 300px;
+    position: fixed;
+    top: 15px;
+        height: 107px;
+        z-index: 99999999;
+        left: 0;
+}
+.modal_img {
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 17px;
+    width: 101px;
+}
+.useful_desc {
+    padding: 20px;
+}
+.useful_desc_wraper h2 {
+    padding: 0 20px;
+    padding-top: 25px;
+}
+.perfect_desc h2 {
+    padding-top: 0;
+
+    margin-bottom: 20px;
+
+}
+.perfect_desc h2:after {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.perfect_img img {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.single-type-product img {
+    width: 100%;
+    max-width: 100px;
+}
+.product_type {
+    justify-content: space-evenly;
+}
+.ClubCeush_desc p br {
+    display: block !important;
+}
+.ClubCrush_single {
+    padding-bottom: 40px;
+}
+.customer-say-des p {
+    font-size: 16px;
+    line-height: 27px;
+}
+.customer-say-des h3 {
+    font-size: 18px;
+}
+.offer-now-des h5 {
+    font-size: 18px;
+    line-height: 28px;
+}
+.offer-now-des h4 {
+    font-size: 20px;
+    margin-bottom: 22px;
+
+}
+section.offer-now {
+    padding: 30px 0;
+    background: url(../img/club-crush-blender-step-9md.jpg) top center/cover no-repeat;
+}
+.banner-section .list-item {
+    padding-left: 20px;
+}
+section.bleander-use {
+    padding: 50px 0px;
+    background: url(../img/club-crush-blender-7md.jpg) center center/cover no-repeat;
+}
+.bleander-use-des {
+    padding: 0px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .row {
+     margin-right: 0px !important; 
+     margin-left: 0px !important; 
+}
+.single-type-product p {
+    font-size: 13px;
+}
+.product_type {
+    flex-wrap: wrap;
+}
+.custom-container {
+    padding: 0px 15px;
+}
+header {
+    padding-left: 0;
+    padding-right: 0;
+}
+header .custom-container {
+    padding: 0 !important;
+}
+   .header-left {
+    display: block;
+    text-align: center;
+}
+.header-left span {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 6px;
+    font-size: 14px;
+    display: inline-block;
+    border-left: 0px solid #000;
+}
+.header-title p {
+    font-size: 18px;
+}
+.banner-section .list-item {
+    padding-left: 10px;
+}
+.banner-section .header-title {
+    padding-left: 10px;
+}
+
+
+.section-title h2 br {
+    display: none;
+}
+.section-title h2 {
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.section-title.pt-5 {
+    padding: 0px 30px;
+}
+.customer-say-des.pt-3.pb-5 h3 {
+    font-size: 18px;
+}
+.customer-say-des {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-banner-text {
+    padding: 0px 33px;
+}
+.footer-button a {
+    font-size: 16px !important;
+}
+.single-rating {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.header-title p br {
+    display: none;
+}
+
+.modal_section {
+    height: 92px;
+}
+
+.modal_img {
+   padding-top: 5px;
+}
+.modal_img img {
+    display: block;
+    padding-bottom: 10px;
+}
+.modal_content {
+    padding: 10px 10px 5px 0;
+    width: 100%;
+}
+
+.modal_content p {
+    margin-bottom: 4px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 24px;
+}
+.custom-btn {
+
+    font-size: 16px;
+}
+}
